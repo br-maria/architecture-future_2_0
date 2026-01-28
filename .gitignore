@@ -47,3 +47,62 @@ dist/
 # ===============================
 tmp/
 temp/
+# ======================
+# Terraform
+# ======================
+.terraform/
+.terraform.lock.hcl
+
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Terraform variables (если появятся локальные)
+*.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ======================
+# Secrets / keys
+# ======================
+key.json
+key.b64
+*.pem
+*.key
+
+# ======================
+# IDEs
+# ======================
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# ======================
+# OS files
+# ======================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ======================
+# Logs
+# ======================
+*.log
+
+# ======================
+# Generated diagrams / exports (если пересобираешь)
+# ======================
+*.png
+*.svg
+*.pdf
+
+# (если diagram.png нужно коммитить — удали строку выше)

@@ -1,0 +1,7 @@
+cloud_id  = "b1gxxxxxxxxxxxxxxx"
+folder_id = "b1gqbqp6rfn89j72vjet"
+
+ssh_public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAA..."
+ssh_user       = "ubuntu"
+
+allowed_ssh_cidr = "0.0.0.0/0" # можно так для д
