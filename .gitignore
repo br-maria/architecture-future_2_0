@@ -1,0 +1,49 @@
+# ===============================
+# IntelliJ IDEA
+# ===============================
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IntelliJ out directory
+out/
+
+# IntelliJ specific caches
+.idea_modules/
+
+# ===============================
+# OS / Misc
+# ===============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+*~
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Environment files
+# ===============================
+.env
+.env.*
+!.env.example
+
+# ===============================
+# Build artifacts (generic)
+# ===============================
+target/
+build/
+dist/
+
+# ===============================
+# Temporary / generated
+# ===============================
+tmp/
+temp/
